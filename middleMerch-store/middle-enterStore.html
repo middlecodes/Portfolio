@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(https://wallpapercave.com/wp/wp3447719.jpg); 
+
+            background-size: cover;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .enter{
+            text-align: center;
+        }
+        .enter h1{
+            text-align: left;
+            font-size: 100px;
+            color: white;
+            font-weight: 600;
+        }
+        .enter a{
+            text-decoration: none;
+            display: inline-block;
+            position: absolute;
+            bottom: 50px;
+            right: 30px;
+            font-size: 20px;
+            color: white;
+            font-weight: 600;
+            border: 2px solid white;
+            border-radius: 50px;
+            padding: 14px 70px;
+            margin-top: 20px;
+        }
+        .enter a:active, .enter a:hover{
+            background-color: black;
+        }
+        .backVid{
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            z-index:-1;
+        }
+        @media (min-aspect-ratio: 16/9){
+            .backVid{
+                width: 100%;
+                height: auto;
+            }
+        }
+        @media (max-aspect-ratio: 16/9){
+            .backVid{
+                width: auto;
+                height: 100%;
+            }
+        }
+    </style>
+    <video autoplay loop muted plays-inline class="backVid"><source src="/M1_fundamentals/middleMerch-store/media/IMG_4040.mov" type="video/mp4"></video>
+    <div 
+        class="enter">
+        <h1>WELCOME<br>INNER<br>CIRCLE</h1>
+        <a href="middleMerch.html"> Enter </a>
+    </div>
+</body>
+</html>
+
+<!-- ARRY OF OBJCECTS FOR MUSIC FILES AND DESCRIPTIONS  -->
